@@ -1,0 +1,60 @@
+The following was generated for the following function calls:
+print(finish_sentence(
+    ['she', 'was', 'not'],
+    3,
+    corpus,
+    deterministic=True,
+))
+
+print(finish_sentence(
+    [],
+    3,
+    corpus,
+    deterministic=True,
+))
+
+print(finish_sentence(
+    ['I', 'hoped', 'to'],
+    3,
+    corpus,
+    deterministic=True,
+))
+
+random.seed(11234)
+print(finish_sentence(
+    ['I', 'hoped', 'to'],
+    3,
+    corpus,
+    deterministic=False,
+))
+
+print(finish_sentence(
+    ['she', 'was', 'not'],
+    3,
+    corpus,
+    deterministic=False,
+))
+
+random.seed(2)
+print(finish_sentence(
+    ['I', 'hoped', 'to'],
+    3,
+    corpus,
+    deterministic=False,
+))
+
+print(finish_sentence(
+    ['she', 'was', 'not'],
+    3,
+    corpus,
+    deterministic=False,
+))
+
+['she', 'was', 'not', 'in', 'the', 'world', '.']
+[',', 'and', 'the', 'two', 'miss', 'steeles', ',']
+['I', 'hoped', 'to', 'see', 'them', ',']
+['I', 'hoped', 'to', 'see', 'her', 'again', 'from', 'cleveland', '.']
+['she', 'was', 'not', 'too', 'happy', ',']
+['I', 'hoped', 'to', 'see', ',']
+['she', 'was', 'not', 'suffering', 'under', 'the', 'influence', 'of', 'his', 'character', 'had', 'been', 'placed', '!']
+
